@@ -1,0 +1,38 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffe6e6; /* Um tom rosado */
+    font-family: 'Arial', sans-serif;
+    overflow: hidden; /* Evita que apareçam barras de rolagem */
+}
+
+.conteudo {
+    text-align: center;
+    background: white;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#btnSim {
+    background-color: #28a745;
+    color: white;
+}
+
+#btnNao {
+    background-color: #dc3545;
+    color: white;
+    position: absolute; /* Essencial para o botão fugir */
+    transition: all 0.1s ease;
+}

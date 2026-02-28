@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Grande Decisão!</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <div class="conteudo">
+        <h1>{{ nome1 }} vai casar com {{ nome2 }}?</h1>
+
+        <div class="botoes">
+            <button id="btnSim" onclick="aceitou()">SIM</button>
+            <button id="btnNao" onmouseover="fugir()">NÃO</button>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='site.js') }}"></script>
+</body>
+</html>
